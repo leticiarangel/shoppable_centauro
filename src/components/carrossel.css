@@ -1,0 +1,100 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #686868;
+  margin-bottom: 25px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-pagination {
+    display: none;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+}
+.container {
+    background: #686868;
+}
+.logo {
+    display: flex;
+    margin: 0.5rem;
+    max-width: 130px;
+    max-height: 100px;
+    width: 280px;
+    height: auto;
+}
+.title{
+    color: white;
+    font-size: 1.2rem;
+}
+.carrossel_1{
+    margin-left: 20px;
+}
+.carrossel_4{
+    margin-right: 5px;
+}
+.carrossel_1 h2, .carrossel_2 h2, .carrossel_3 h2, .carrossel_4 h2 {
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+}
+.carrossel_1 p, .carrossel_2 p, .carrossel_3 p, .carrossel_4 p {
+    color: white;
+    font-size: 0.9rem;
+    text-align: left;
+}
+.product {
+    border-radius: 10px;
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+.button {
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    display: block;
+}
+.link {
+    text-decoration: none;
+    color: #00C46D;
+    padding: 10px 20px;
+}
