@@ -25,7 +25,7 @@ export default function Carrossel() {
         
         <Swiper
             slidesPerView={2}
-            spaceBetween={30}
+            spaceBetween={10}
             freeMode={true}
             pagination={{
             clickable: true,
